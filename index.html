@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Search Github</title>
+    <link rel="stylesheet" href="assets/css/style.css"/>
+    <link rel="icon" type="imagem/png" href="assets/images/github-logo.png" />
+
+    <!-- jQuery,  Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <nav class="navbar navbar-dark bg-dark mb-3">
+        <div class="container">
+            <img id="logoWhite" src="assets/images/github-logo-white.png" alt="">
+            <a href="#" class="navbar-brand">Search Github</a>
+        </div>
+    </nav> 
+    
+    <div class="container">
+        <div class="card card-body">
+            <h1>Pesquisar usuários do Github</h1>
+            <p class="lead">
+                Digite um nome para encontrar usuários, seus repositórios e repositórios favoritados.
+            </p>
+
+        <div class='row'>
+                <div class='col-md-6'>
+                    <input id="search" type="text" class="form-control" required>
+                </div>
+                <div class='col-md-6'>
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <button type="button" id="btnRepo" class="btn btn-secondary" active> Repositories </button>
+                        <button type="button" id="btnStarred" class="btn btn-secondary">    Starred   </button>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="profile"></div>        
+    </div>
+
+    <div class="footer"></div>
+    
+</body>
+<script src="assets/js/main.js" ></script>
+
+</html>

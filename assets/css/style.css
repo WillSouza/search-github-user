@@ -1,0 +1,31 @@
+#avatar{
+    border-radius: 10px;
+}
+
+#logoWhite{
+     width: 35px; 
+     height: 35px;
+}
+
+#profile{
+    margin-bottom: 25px;
+}
+#starred{
+    display:none;
+    height: 600px;
+    overflow-y: auto;
+}
+
+#repos{
+    display:block;
+    height: 600px;
+    overflow-y: auto;
+}
+
+.footer{
+    position: fixed;
+    background-color: #333;
+    height: 20px;
+    bottom: 0;
+    width: 100%;
+}
